@@ -1,0 +1,58 @@
+.paymentWay-content {
+    display: flex;
+    flex: 1 1;
+}
+.page-title-block {
+    background: #FFD634;
+    padding: 60px 0px;
+    margin-top: 70px;
+}
+.page-title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 30px;
+    color: #303030;
+}
+h1.page-title {
+    margin-bottom: 0 !important;
+}
+.payment-content {
+    width: 100%;
+    padding: 60px 0;
+}
+.balance-content {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0 , 0.16);
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.balance-content .balance {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.balance-title {
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.452);
+}
+.course-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.418);
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+.course-img-payment {
+    padding: 0;
+}
+.course-img-payment img {
+    border-radius: 4px;
+}

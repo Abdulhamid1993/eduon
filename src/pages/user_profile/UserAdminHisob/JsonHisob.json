@@ -1,0 +1,44 @@
+[
+    {
+        "situation":"Kurs Olindi",
+        "date":"08.06.2021",
+        "time":"20:15",
+        "TechName":"Akmal Payziyev",
+        "KursName":"Qanday qilib IT..."
+    },
+    {
+        "situation":"Hisob Toldirildi",
+        "date":"08.06.2021",
+        "time":"20:15",
+        "CardNumber":"8600 7122 **** ****",
+        "CardName":"Uzcard"
+    },
+    {
+        "situation":"Hisob Toldirildi",
+        "date":"08.06.2021",
+        "time":"20:15",
+        "CardNumber":"8600 7122 **** ****",
+        "CardName":"Uzcard"
+    },
+    {
+        "situation":"Hisob Toldirildi",
+        "date":"08.06.2021",
+        "time":"20:15",
+        "CardNumber":"8600 7122 **** ****",
+        "CardName":"Uzcard"
+    },
+    {
+        "situation":"Kurs Olindi",
+        "date":"08.06.2021",
+        "time":"20:15",
+        "TechName":"Akmal Payziyev",
+        "KursName":"Qanday qilib IT..."
+    },
+    {
+        "situation":"Hisob Toldirildi",
+        "date":"08.06.2021",
+        "time":"20:15",
+        "CardNumber":"8600 7122 **** ****",
+        "CardName":"Uzcard"
+    }
+]

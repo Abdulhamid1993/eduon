@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.birnima{
+  margin-top: 36px;
+  margin-left: 30px;
+}
+
+.section_UserProfil {
+  display: flex;
+  justify-content: start;
+  height: 100%;
+}
+
+.userProfil_images {
+  margin-left: 15px;
+  width: 172px;
+  height: 172px;
+  object-fit: cover;
+  -webkit-mask-image: url(./img/Asset_1.png);
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: 100%;
+}
+.userProfil_image {
+  position: relative;
+}
+
+.userProfil_image43 {
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  cursor: pointer;
+  background: #e7f0ff;
+  border-radius: 16px;
+  padding: 15px;
+}
+.userprofil-input-info1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+.userprofil-input-info2 {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.userprofil-input-name {
+  margin-bottom: 20px;
+  width: 400px;
+  height: 76px;
+  background: rgba(17, 17, 17, 0.02);
+  border-radius: 18px;
+  border: none;
+  outline: none;
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(17, 17, 17, 0.72);
+  padding-left: 30px;
+}
+.userprofil-pol{
+  background: rgba(17, 17, 17, 0.02);
+  border-radius: 18px;
+  width: 400px;
+  height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.userprofil-pol-input{
+  width: 300px;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(17, 17, 17, 0.72);
+  margin-right: 10px;
+  background: transparent;
+}
+
+   
+
+.userprofil-pol input[type="radio"] {
+  background: #006aff;
+  border: 1px solid #006aff;
+  height: 30px;
+  width: 30px;
+  
+}
+.userprofil-input-name12 p {
+  margin-bottom: 18px;
+  margin-top: 18px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(17, 17, 17, 0.36);
+}
+.userProfile-bottom-btn {
+  position: absolute;
+  left: 56%;
+  top: 750px;
+  padding: 24px 72px;
+  background: #e7f0ff;
+  border-radius: 18px;
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #006aff;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+}
+.userProfile-bottom-btn:active {
+  background: blue;
+}
+.modal__div1 {
+  width: 554px;
+  height: 246px;
+  background: #ffffff;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(700px) translateY(300px);
+  outline: none !important;
+  border: 1px solid #ffffff;
+}
+.modal__div1 h1 {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: rgba(17, 17, 17, 0.9);
+  padding-top: 20px;
+  padding-bottom: 45px;
+}
+.modal__div1 button {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #006aff;
+  outline: none;
+  border: 1px solid #e7f0ff;
+  width: 234px;
+  height: 76px;
+  border-radius: 18px;
+  background: none;
+  margin: 7px;
+}
+.modal__div1 div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.modal__div1 button:active {
+  background: #e7f0ff;
+  border-radius: 18px;
+}
+.modal__div2 {
+  width: 554px;
+  height: 684px;
+  background: #ffffff;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(700px) translateY(100px);
+  outline: none !important;
+  border: 1px solid #ffffff;
+}
+.cut__img {
+  width: 482px;
+  height: 482px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 24px;
+}
+.modal__div2 button, .download {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #006aff;
+  outline: none;
+  border: 1px solid #e7f0ff;
+  width: 234px;
+  height: 76px;
+  border-radius: 18px;
+  background: none;
+  margin: 7px;
+  transition: 0.5s;
+}
+.modal__div2 div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.modal__div2 button:active {
+  background: #e7f0ff;
+  border-radius: 18px;
+}
+.download input{
+  height: 100%;
+  opacity: 0;
+}
+.download span{
+  position: absolute;
+}
+

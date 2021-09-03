@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'Gilroy-Medium' ;
+    src: url(../fonts/Gilroy-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.mainSignUpPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 680px;
+    margin: 0 auto;
+    padding-bottom: 200px;
+}
+
+.signin-courses_sec_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 112px;
+    padding-bottom: 54px;
+}
+
+.signin-courses_sec_btn h2 p {
+    margin: 0;
+}
+
+.signin-courses_sec_btn > .course_btn_1 {
+    width: 54px;
+    height: 25px;
+    background: #006aff;
+    border-radius: 24px;
+    padding: 3px;
+    border: none;
+    outline: none;
+    margin: 0 36px;
+    display: flex;
+    justify-content: flex-start;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.course_btn_pass {
+    font-family: Gilroy-Medium;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.course_btn_active {
+    font-family: Gilroy-Medium;
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.signin-courses_sec_btn > .course_btn_2 {
+    width: 54px;
+    height: 25px;
+    background: #006aff;
+    border-radius: 24px;
+    padding: 3px;
+    border: none;
+    outline: none;
+    margin: 0 36px;
+    display: flex;
+    justify-content: flex-end;
+    transition: 0.3s linear;
+    cursor: pointer;
+}
+
+.course_btn_1 > div,
+.course_btn_2 > div {
+    width: 20px;
+    height: 19px;
+    background: #fafafa;
+    border-radius: 50%;
+}
+
+.course_btn_active {
+    color: #006aff;
+}
+
+.course_btn_pass {
+    color: rgba(17, 17, 17, 0.54);
+}
+
+.blim-ulashuvchi {
+    display: none;
+}
+
+.signUpPage-input-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.signUpPage-inner-item {
+    width: 398px;
+    height: 80px;
+    padding-left: 35px;
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(17, 17, 17, 0.36);
+    background: rgba(17, 17, 17, 0.02);
+    border-radius: 24px;
+    border: none;
+    outline: none;
+    margin: 18px 0;
+}
+
+.error-text {
+    text-align: center;
+    color: #721c24;
+    position: relative;
+    padding: .75rem 1.25rem;
+    width: 398px;
+    margin-bottom: 20px;
+    background-color: #f8d7da;
+     border-color: #f5c6cb;
+    border-radius: 24px;
+}
+
+.signUpPage-btn-inner {
+    padding: 27px 125px 27px 125px;
+    background: #e7f0ff;
+    border-radius: 24px;
+    border: none;
+    margin-top: 24px;
+}
+
+.signUpPage-btn-inner a {
+    font-family: Gilroy-Medium;
+    font-size: 24px;
+    line-height: 28px;
+    color: #006aff;
+    text-decoration: none;
+}
+
+.signUpPage-text-item {
+    margin-top: 34px;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(17, 17, 17, 0.36);
+    margin-left: 15px;
+}
+
+.signUpPage-text-item a {
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 21px;
+    color: #006aff;
+    text-decoration: none;
+}
+
+@media (max-width: 425px) {
+    .blim-ulashuvchi {
+        display: block;
+        font-size: 24px;
+    }
+
+    .bilim-oluvchi {
+        display: none;
+    }
+
+    .signUpPage-input-item {
+        align-items: center;
+    }
+
+    .signUpPage-inner-item {
+        max-width: 303px;
+        font-size: 20px;
+    }
+
+    .error-text {
+      max-width: 303px;
+    }
+
+    .signUpPage-btn-inner {
+        padding: 24px 90px;
+    }
+
+    .signUpPage-btn-inner a {
+        font-size: 20px;
+    }
+
+    .mainSignUpPage {
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 320px) {
+    .blim-ulashuvchi {
+        display: block;
+        font-size: 20px;
+    }
+
+    .bilim-oluvchi {
+        display: none;
+    }
+
+    .signUpPage-inner-item {
+        width: 290px;
+        font-size: 15px;
+    }
+
+    .signUpPage-btn-inner {
+        padding: 24px 90px;
+    }
+
+    .signUpPage-text-item a {
+        font-size: 14px;
+    }
+
+    .signUpPage-btn-inner a {
+        font-size: 16px;
+    }
+
+    .signUpPage-text-item {
+        font-size: 14px;
+        width: 200px;
+    }
+
+}

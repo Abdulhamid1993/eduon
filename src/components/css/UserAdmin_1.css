@@ -1,0 +1,308 @@
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url("fonts/Gilroy-Medium.ttf");
+}
+
+.UserAdm_1 {
+  margin: 24px 36px 0 36px;
+}
+
+.UserAdm_1 .UserAdm_1_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 36px;
+}
+
+.UserAdm_1 .UserAdm_1_top .UserAdm_1_top_categories {
+  width: 438px;
+}
+
+.UserAdm_1 .UserAdm_1_top .UserAdm_1_top_categories p {
+  padding: 16px;
+  font-size: 16px;
+  color: rgba(17, 17, 17, 0.54);
+}
+
+.UserAdm_1 .UserAdm_1_top .UserAdm_1_top_search {
+  padding: 13px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 2px solid rgba(17, 17, 17, 0.12);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 12px;
+}
+
+.UserAdm_1 .UserAdm_1_top .UserAdm_1_top_search input {
+  outline: none;
+  border: none;
+  font-size: 16px;
+  color: rgba(17, 17, 17, 0.36);
+}
+
+.UserAdm_1 .UserAdm_1_bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card {
+  margin-bottom: 36px;
+  width: 252px;
+}
+
+.UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card > p {
+  width: 90%;
+}
+
+.UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card p {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-left: 6px;
+  color: rgba(17, 17, 17, 0.72);
+  font-size: 16px;
+}
+
+.UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card .UserAdm_1_bottom_card_imgBlock {
+  position: relative;
+  width: 252px;
+  height: 168px;
+  border-radius: 16px;
+}
+
+.UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card .UserAdm_1_bottom_card_imgBlock::after {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  z-index: 1;
+  bottom: 64px;
+  right: 0px;
+  -webkit-box-shadow: 6.5px 11.5px 0 0px #fff;
+          box-shadow: 6.5px 11.5px 0 0px #fff;
+  border-radius: 19pt;
+  -webkit-transform: rotateZ(-16deg);
+          transform: rotateZ(-16deg);
+}
+
+.UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card .UserAdm_1_bottom_card_imgBlock::before {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+  right: 64px;
+  -webkit-box-shadow: 10.5px 8.5px 0 0px #fff;
+          box-shadow: 10.5px 8.5px 0 0px #fff;
+  border-radius: 19pt;
+  -webkit-transform: rotateZ(5deg);
+          transform: rotateZ(5deg);
+}
+
+.UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card .UserAdm_1_bottom_card_imgBlock .UserAdm_1_bottom_imgBig {
+  width: 100%;
+  height: 168px;
+  border-radius: 16px;
+}
+
+.UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card .UserAdm_1_bottom_card_imgBlock div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  background: #fff;
+  border-radius: 16pt;
+  position: absolute;
+  bottom: -10px;
+  right: -10px;
+}
+
+.UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card .UserAdm_1_bottom_card_imgBlock div img {
+  border-radius: 16px;
+  width: 54px;
+  height: 54px;
+}
+
+.UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card .UserAdm_1_bottom_card_progress_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 18px 6px 8px 6px;
+  border-top: 2px solid rgba(17, 17, 17, 0.06);
+}
+
+.UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card .UserAdm_1_bottom_card_progress_title h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(17, 17, 17, 0.72);
+}
+
+.UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card .UserAdm_1_bottom_card_progress_title p {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(17, 17, 17, 0.54);
+}
+
+.UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card .UserAdm_1_bottom_card_progress_block {
+  width: 100%;
+  background: #F1F1F1;
+  border-radius: 12px;
+  height: 8px;
+  margin: 0 6px;
+}
+
+.UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card .UserAdm_1_bottom_card_progress_block div {
+  height: 100%;
+  background: #006AFF;
+  border-radius: 12px;
+}
+
+.UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card button {
+  cursor: pointer;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 100%;
+  margin: 24px 6px 0 6px;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(17, 17, 17, 0.54);
+  background: rgba(17, 17, 17, 0.06);
+  border-radius: 12px;
+  outline: none;
+  border: none;
+}
+
+.UserAdm_1 .UserAdm_1_pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 54px;
+}
+
+.UserAdm_1 .UserAdm_1_pages a {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(0, 106, 255, 0.54);
+  padding: 8px 15px;
+  margin-left: 6px;
+}
+
+.UserAdm_1 .UserAdm_1_pages .UserAdm_1_pages_LeftImg {
+  margin-right: 6px;
+}
+
+.UserAdm_1 .UserAdm_1_pages .UserAdm_1_pages_RightImg {
+  margin-left: 12px;
+}
+
+@media (max-width: 1024px) {
+  .UserAdm_1 .UserAdm_1_top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .UserAdm_1 .UserAdm_1_top .UserAdm_1_top_search {
+    margin-bottom: 30px;
+  }
+  .UserAdm_1 .UserAdm_1_bottom {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card {
+    margin: 10px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .UserAdm_1 .UserAdm_1_top {
+    margin-bottom: 30px;
+  }
+  .UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card {
+    width: 303px;
+  }
+  .UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card .UserAdm_1_bottom_card_imgBlock {
+    width: 303px;
+    height: 202px;
+  }
+  .UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card .UserAdm_1_bottom_card_imgBlock::after {
+    bottom: 74px;
+  }
+  .UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card .UserAdm_1_bottom_card_imgBlock::before {
+    right: 74px;
+  }
+  .UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card .UserAdm_1_bottom_card_imgBlock .UserAdm_1_bottom_imgBig {
+    height: 202px;
+  }
+  .UserAdm_1 .UserAdm_1_bottom .UserAdm_1_bottom_card .UserAdm_1_bottom_card_imgBlock div img {
+    width: 64px;
+    height: 64px;
+  }
+  .UserAdm_1 .UserAdm_1_pages {
+    padding-bottom: 170px;
+  }
+}
+
+@media (max-width: 425px) {
+  .UserAdm_1 .UserAdm_1_top .UserAdm_1_top_categories {
+    width: 300px;
+  }
+  .UserAdm_1 .UserAdm_1_top .UserAdm_1_top_categories .swiper-slide {
+    width: auto !important;
+  }
+  .UserAdm_1 .UserAdm_1_bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}

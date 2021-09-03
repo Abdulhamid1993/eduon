@@ -1,0 +1,301 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url("font/Gilroy-Medium.ttf");
+}
+
+.UserAdminHisob {
+  margin: 30px;
+}
+
+.UserAdminHisob * {
+  font-family: 'Gilroy';
+}
+
+.UserAdminHisob a {
+  text-decoration: none;
+}
+
+.UserAdminHisob .UserAdminHisob_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 36px;
+}
+
+.UserAdminHisob .UserAdminHisob_top .UserAdminHisob_top_card {
+  padding: 24px 24px 31px 24px;
+  border: 2px solid rgba(17, 17, 17, 0.03);
+  border-radius: 24px;
+}
+
+.UserAdminHisob .UserAdminHisob_top .UserAdminHisob_top_card p {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(17, 17, 17, 0.54);
+  margin-bottom: 24px;
+}
+
+.UserAdminHisob .UserAdminHisob_top .UserAdminHisob_top_card h1 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #121212;
+}
+
+.UserAdminHisob .UserAdminHisob_top .UserAdminHisob_top_card h1 span {
+  font-weight: 500;
+  color: rgba(17, 17, 17, 0.4);
+  font-size: 20px;
+}
+
+.UserAdminHisob .UserAdminHisob_top .UserAdminHisob_top_AddCash {
+  padding: 24px 52px 31px 52px;
+  border: 2px solid rgba(17, 17, 17, 0.03);
+  border-radius: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.UserAdminHisob .UserAdminHisob_top .UserAdminHisob_top_AddCash p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #006AFF;
+}
+
+.UserAdminHisob .UserAdminHisob_top .UserAdminHisob_top_AddCash > img {
+  width: 54px;
+  height: 54px;
+  margin-bottom: 10px;
+}
+
+.UserAdminHisob .UserAdminHisob_bottom_mobile {
+  display: none;
+}
+
+.UserAdminHisob .UserAdminHisob_bottom > span {
+  margin-bottom: 18px;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(17, 17, 17, 0.36);
+}
+
+.UserAdminHisob .UserAdminHisob_bottom .UserAdminHisob_bottom_card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr 2fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 2fr 2fr 1fr;
+  padding: 24px 60px 24px 36px;
+  background: rgba(17, 17, 17, 0.03);
+  border-radius: 18px;
+  margin-bottom: 12px;
+}
+
+.UserAdminHisob_CashModal p {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(17, 17, 17, 0.3);
+}
+
+.UserAdminHisob_CashModal input {
+  padding: 24px;
+  font-weight: 500;
+  font-size: 24px;
+  color: rgba(17, 17, 17, 0.54);
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.UserAdminHisob_CashModal .UserAdminHisob_CashModal_summa {
+  background: rgba(17, 17, 17, 0.03);
+  border-radius: 18px;
+  width: 100%;
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+
+.UserAdminHisob_CashModal .UserAdminHisob_CashModal_cardName {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 12px;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.UserAdminHisob_CashModal .UserAdminHisob_CashModal_cardName > label {
+  cursor: pointer;
+  width: 49%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: rgba(17, 17, 17, 0.03);
+  border-radius: 18px;
+  padding: 24px;
+}
+
+.UserAdminHisob_CashModal .UserAdminHisob_CashModal_cardName > label input {
+  width: 100%;
+  font-weight: 500;
+  font-size: 24px;
+  color: rgba(17, 17, 17, 0.54);
+  position: relative;
+}
+
+.UserAdminHisob_CashModal .UserAdminHisob_CashModal_cardName > label input[type="radio"] {
+  height: 30px;
+  width: 30px;
+}
+
+.UserAdminHisob_CashModal .UserAdminHisob_CashModal_Button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.UserAdminHisob_CashModal .UserAdminHisob_CashModal_Button button:nth-child(1) {
+  width: 49%;
+  border: 3px solid rgba(17, 17, 17, 0.04);
+  border-radius: 18px;
+  background: none;
+  font-weight: 500;
+  font-size: 24px;
+  color: #006AFF;
+  padding: 21px;
+  cursor: pointer;
+}
+
+.UserAdminHisob_CashModal .UserAdminHisob_CashModal_Button button:nth-child(2) {
+  background: #E7F0FF;
+  border: none;
+  width: 49%;
+  border-radius: 18px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #006AFF;
+  padding: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+  .UserAdminHisob .UserAdminHisob_top {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .UserAdminHisob .UserAdminHisob_top .UserAdminHisob_top_card {
+    height: 137px;
+    width: 303px;
+    margin: 10px;
+  }
+  .UserAdminHisob .UserAdminHisob_top .UserAdminHisob_top_AddCash {
+    height: 137px;
+    width: 303px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .UserAdminHisob .UserAdminHisob_top {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .UserAdminHisob .UserAdminHisob_bottom_pc {
+    display: none;
+  }
+  .UserAdminHisob .UserAdminHisob_bottom_mobile {
+    width: 100%;
+    display: inline-block;
+  }
+  .UserAdminHisob .UserAdminHisob_bottom_mobile .UserAdminHisob_bottom_card {
+    padding: 24px 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .UserAdminHisob .UserAdminHisob_bottom_mobile .UserAdminHisob_bottom_card > div {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .ReactModalPortal .ReactModal__Overlay .ReactModal__Content {
+    width: 303px !important;
+    margin-top: 60px !important;
+  }
+  .ReactModalPortal .ReactModal__Overlay .ReactModal__Content .UserAdminHisob_CashModal .UserAdminHisob_CashModal_summa input {
+    width: 100%;
+  }
+  .ReactModalPortal .ReactModal__Overlay .ReactModal__Content .UserAdminHisob_CashModal .UserAdminHisob_CashModal_cardName {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ReactModalPortal .ReactModal__Overlay .ReactModal__Content .UserAdminHisob_CashModal .UserAdminHisob_CashModal_cardName label {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .ReactModalPortal .ReactModal__Overlay .ReactModal__Content .UserAdminHisob_CashModal .UserAdminHisob_CashModal_Button {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .ReactModalPortal .ReactModal__Overlay .ReactModal__Content .UserAdminHisob_CashModal .UserAdminHisob_CashModal_Button button:nth-child(1) {
+    margin-top: 12px;
+  }
+  .ReactModalPortal .ReactModal__Overlay .ReactModal__Content .UserAdminHisob_CashModal .UserAdminHisob_CashModal_Button > * {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=UserAdminHisob.css.map */

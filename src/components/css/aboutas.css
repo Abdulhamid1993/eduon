@@ -1,0 +1,132 @@
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../fonts/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: "Samsung Sharp Sans";
+  src: url("../fonts/samsungsharpsans-bold.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.row_text-titlel {
+  font-family: Samsung Sharp Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 54px;
+  color: #006aff;
+  margin-bottom: 18px;
+}
+.mar {
+  margin-bottom: 10px;
+}
+.headerabout {
+  margin-top: 136px;
+}
+.header__inner-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__about-title {
+  font-family: Samsung Sharp Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 54px;
+  color: #006aff;
+  margin-bottom: 20px;
+}
+.header__about-title2 {
+  font-size: 40px;
+  font-family: Samsung Sharp Sans;
+}
+
+.section__aboutas {
+  margin-top: 172px;
+}
+.section__inner-aboutas {
+  max-width: 1096px;
+}
+.aboutas_title-item {
+  font-family: Samsung Sharp Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 38px;
+  color: #006aff;
+  margin-bottom: 18px;
+}
+.aboutas_text-item {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 54px;
+}
+
+.spantex {
+  color: #006aff;
+}
+.aboutas_text-item1 {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 54px;
+}
+.aboutas_text-item1 span {
+  font-weight: 700;
+}
+.bigtext {
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: #006aff;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+.bltext {
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  line-height: 24px;
+  color: #111111;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 425px) {
+  .header__about-title {
+    font-family: Samsung Sharp Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 46px;
+  }
+  .header__about-title2 {
+    font-size: 35px;
+  }
+  .aboutas_title-item {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .aboutas_text-item{
+    font-size: 14px;
+  }
+  .aboutas_text-item1{
+    font-size: 14px;
+  }
+  .section__aboutas{
+    margin-top: 100px;
+  }
+}

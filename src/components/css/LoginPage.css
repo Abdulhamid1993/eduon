@@ -1,0 +1,251 @@
+@font-face {
+  font-family:'Gilroy-Medium' ;
+  src: url(../fonts/Gilroy-Medium.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.loginPage-btn-inner{
+  font-size: 24px;
+  color: #006aff;
+}
+ #dis-button {
+  font-size: 16px!important;
+  color: red!important;
+}
+.loginPage-inner-icon{
+  height: 32px;
+  display: flex;
+  align-items: center;
+}
+.loginPage-inner-icon img{
+  width: 20px;
+  height: 17px;
+  opacity: 50%;
+}
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.mainLoginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 680px;
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
+
+.login-courses_sec_btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 112px;
+  padding-bottom: 54px;
+}
+.login-courses_sec_btn h2 p {
+  margin: 0;
+}
+.login-courses_sec_btnh3{
+  display: none;
+}
+.login-courses_sec_btn> .course_btn_1 {
+  width: 54px;
+  height: 25px;
+  background: #006aff;
+  border-radius: 24px;
+  padding: 3px;
+  border: none;
+  outline: none;
+  margin: 0 36px;
+  display: flex;
+  justify-content: flex-start;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+.course_btn_pass {
+  font-family: Gilroy-Medium;
+  font-size: 32px;
+  line-height: 37px;
+}
+.course_btn_active {
+  font-family: Gilroy-Medium;
+  font-size: 32px;
+  line-height: 37px;
+}
+.login-courses_sec_btn > .course_btn_2 {
+  width: 54px;
+  height: 25px;
+  background: #006aff;
+  border-radius: 24px;
+  padding: 3px;
+  border: none;
+  outline: none;
+  margin: 0 36px;
+  display: flex;
+  justify-content: flex-end;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+.course_btn_1 > div,
+.course_btn_2 > div {
+  width: 20px;
+  height: 19px;
+  background: #fafafa;
+  border-radius: 50%;
+}
+
+.course_btn_active {
+  color: #006aff;
+}
+.course_btn_pass {
+  color: rgba(17, 17, 17, 0.54);
+}
+
+.loginPage-input-item {
+  display: flex;
+  flex-direction: column;
+}
+
+/*.loginPage-inner-item {*/
+/*  width: 398px;*/
+/*  height: 80px;*/
+/*  padding-left: 35px;*/
+/*  font-family: Gilroy-Medium;*/
+/*  font-size: 24px;*/
+/*  line-height: 28px;*/
+/*  color: rgba(17, 17, 17, 0.36);*/
+/*  background: rgba(17, 17, 17, 0.02);*/
+/*  border-radius: 24px;*/
+/*  border: none;*/
+/*  outline: none;*/
+/*  margin: 18px 0;*/
+/*}*/
+.loginPage-text-item {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: #006aff;
+  opacity: 0.72;
+  margin-left: 25px;
+}
+
+.loginPage-btn-inner {
+  padding: 27px 125px 27px 125px;
+  background: #e7f0ff;
+  border-radius: 24px;
+  border: none;
+  margin-top: 24px;
+}
+#dis-button {
+  padding: 27px 125px 27px 125px;
+  background: #e7f0ff;
+  border-radius: 24px;
+  border: none;
+  margin-top: 24px;
+}
+.loginPage-btn-inner a {
+  font-family: Gilroy-Medium;
+  font-size: 24px;
+  line-height: 28px;
+  color: #006aff;
+  text-decoration: none;
+}
+
+.loginPage-inner-text-item {
+  margin-top: 34px;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: rgba(17, 17, 17, 0.36);
+  margin-left: 15px;
+}
+.loginPage-inner-text-item a {
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  line-height: 21px;
+  color: #006aff;
+  text-decoration: none;
+  padding-left: 4px;
+}
+.Bilim-oluvchi{
+  display: none;
+}
+.loginPage-inner-icon{
+  width: 30px;
+  border: none;
+  background: transparent;
+  transform: translateY(-75px) translateX(350px);
+}
+.loginPage-inner-icon img{
+  width: 30px;
+  /* background: #1111118a; */
+}
+.validation-phone-login {
+  color: red;
+  font-family: "Samsung Sharp Sans" , serif;
+  padding-left: 10px;
+  transition: 0.5s;
+  transform: translateY(0) translateX(0);
+  background: transparent;
+}
+@media (max-width:425px) {
+  .Bilim-oluvchi{
+    display: block;
+  }
+  .login-courses_sec_btn h2{
+    display: none;
+  }
+  .login-courses_sec_btn h3{
+    display: block;
+    font-size: 25px;
+  }
+  .loginPage-inner-item {
+    width: 350px;
+  }
+  .loginPage-inner-icon {
+    transform: translateY(-75px) translateX(150px);
+  }
+  .loginPage-input-item {
+    align-items: center;
+  }
+  .loginPage-btn-inner {
+    padding: 27px 100px 27px 100px;
+  }
+  .loginPage-inner-text-item {
+    font-size: 16px;
+  }
+  .mainLoginPage {
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 425px){
+  .Bilim-oluvchi{
+    display: block;
+  }
+  .login-courses_sec_btn h3 {
+    font-size: 20px;
+  }
+  .loginPage-inner-item {
+    width: 300px;
+    font-size: 20px;
+  }
+  .loginPage-btn-inner a {
+    font-size: 20px;
+  }
+  .loginPage-inner-icon {
+    transform: translateY(-70px) translateX(125px);
+  }
+  .loginPage-btn-inner {
+    padding: 27px 80px 27px 80px;
+  }
+  .loginPage-inner-text-item {
+    font-size: 14px;
+  }
+  .loginPage-inner-text-item a {
+    font-size: 14px;
+  }
+}

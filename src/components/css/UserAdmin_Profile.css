@@ -1,0 +1,302 @@
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url("font/Gilroy-Medium.ttf");
+}
+
+.UserAdmin_Profile * {
+  font-family: 'Gilroy-Medium';
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.UserAdmin_Profile {
+  padding: 36px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_left {
+  margin-right: 36px;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_left .UserAdmin_Profile_left_nameMobile {
+  display: none;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_left .UserAdmin_Profile_left_photo {
+  width: 172px;
+  height: 172px;
+  position: relative;
+  border-radius: 16px;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_left .UserAdmin_Profile_left_photo::after {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  z-index: 1;
+  bottom: 64px;
+  right: 0px;
+  -webkit-box-shadow: 6.5px 11.5px 0 0px white;
+          box-shadow: 6.5px 11.5px 0 0px white;
+  border-radius: 19pt;
+  -webkit-transform: rotateZ(-16deg);
+          transform: rotateZ(-16deg);
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_left .UserAdmin_Profile_left_photo::before {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0px;
+  right: 64px;
+  -webkit-box-shadow: 10.5px 8.5px 0 0px white;
+          box-shadow: 10.5px 8.5px 0 0px white;
+  border-radius: 19pt;
+  -webkit-transform: rotateZ(5deg);
+          transform: rotateZ(5deg);
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_left .UserAdmin_Profile_left_photo img:nth-child(1) {
+  width: 172px;
+  height: 172px;
+  border-radius: 16px;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_left .UserAdmin_Profile_left_photo img:nth-child(2) {
+  position: absolute;
+  right: -10px;
+  bottom: -10px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 16px;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_right {
+  width: 100%;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_right div:nth-child(3) {
+  padding-top: 16px;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_right div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_right div > input {
+  width: 49%;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_right div input {
+  padding: 24px 30px;
+  border: none;
+  outline: none;
+  background: rgba(17, 17, 17, 0.02);
+  border-radius: 18px;
+  font-weight: 500;
+  font-size: 24px;
+  color: rgba(17, 17, 17, 0.72);
+  margin-bottom: 20px;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_right div label {
+  width: 49%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(17, 17, 17, 0.36);
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_right div label input {
+  margin-top: 18px;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_right div label span {
+  padding-left: 6px;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_right .UserAdmin_Profile_right_jinsi {
+  display: block;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_right .UserAdmin_Profile_right_jinsi > div label {
+  color: rgba(17, 17, 17, 0.72);
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 24px 30px;
+  background: rgba(17, 17, 17, 0.02);
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_right .UserAdmin_Profile_right_jinsi > div label input {
+  margin: 0;
+  width: 100%;
+  font-weight: 500;
+  font-size: 24px;
+  color: rgba(17, 17, 17, 0.54);
+  position: relative;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_right .UserAdmin_Profile_right_jinsi > div label input[type="radio"] {
+  height: 30px;
+  width: 30px;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_right .UserAdmin_Profile_right_jinsi p {
+  font-size: 18px;
+  display: block;
+  color: rgba(17, 17, 17, 0.36);
+  padding-bottom: 18px;
+  padding-left: 6px;
+}
+
+.UserAdmin_Profile .UserAdmin_Profile_right > button {
+  background: #E7F0FF;
+  border-radius: 18px;
+  font-size: 24px;
+  color: #006AFF;
+  padding: 24px 72px;
+  outline: none;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .UserAdmin_Profile .UserAdmin_Profile_right {
+    max-width: 625px;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_right div:nth-child(3) {
+    max-width: 460px;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_right div:nth-child(4) {
+    max-width: 460px;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_right div {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    max-width: 500px;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_right div > input {
+    margin: 10px;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_right div label {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 475px) {
+  .UserAdmin_Profile {
+    padding-left: 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_left .UserAdmin_Profile_left_nameMobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_left .UserAdmin_Profile_left_nameMobile input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: rgba(17, 17, 17, 0.72);
+    padding: 18px;
+    background: rgba(17, 17, 17, 0.02);
+    border-radius: 12px;
+    width: 170px;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_left .UserAdmin_Profile_left_nameMobile input:nth-child(1) {
+    margin-bottom: 6px;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_left .UserAdmin_Profile_left_photo {
+    width: 120px;
+    height: 120px;
+    margin-right: 18px;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_left .UserAdmin_Profile_left_photo::after {
+    bottom: 38px;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_left .UserAdmin_Profile_left_photo::before {
+    right: 38px;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_left .UserAdmin_Profile_left_photo img:nth-child(1) {
+    width: 120px;
+    height: 120px;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_left .UserAdmin_Profile_left_photo img:nth-child(2) {
+    width: 48px;
+    height: 48px;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_right * {
+    font-size: 18px;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_right .UserAdmin_pc_name {
+    display: none;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_right div {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_right div > input {
+    width: 303px;
+  }
+  .UserAdmin_Profile .UserAdmin_Profile_right div input {
+    width: 303px;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,67 @@
+.course-loader-item {
+    margin-bottom: 9px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: black;
+    background: linear-gradient(to right, green 8%, green 18%, green 33%);
+    background-size: 1000px 104px;
+}
+.white.course-loader .course-loader-item {
+    background-image: linear-gradient(to right, green 8%, green 18%, green 33%) !important;
+    animation-name: placeHolderShimmer;
+}
+.course-loader-item:last-child {
+    margin-bottom: 0;
+}
+.course-loader-item.circled {
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+@keyframes placeHolderShimmer {
+    0% {
+        background-position: -468px 0
+    }
+    100% {
+        background-position: 468px 0
+    }
+}
+
+.loaderc {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.loaderc div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #FFD634;
+    border-radius: 50%;
+    animation: loaderc 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #FFD634 #721c24;
+}
+.loaderc div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.loaderc div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.loaderc div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes loaderc {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+
+}

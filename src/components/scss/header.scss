@@ -1,0 +1,408 @@
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(../fonts/Gilroy-Medium.ttf);
+}
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: 'Samsung Sharp Sans';
+    src: url(../fonts/samsungsharpsans.otf);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    cursor: pointer;
+}
+body{
+    background: #ffffff;
+}
+a p h1 h2 h3 h4 h5 h6{
+    font-family: 'Gilroy-Medium';
+}
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.fixed{
+    height: 120px;
+}
+.menu__login{
+    display: none;
+}
+.navbar__asos{
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    background: #ffffff;
+    top: 0;
+    z-index: 900;
+}
+nav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Gilroy-Medium';
+    background: #ffffff;
+    margin: 0 auto;
+}
+.gamburger{
+    display: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__bar{
+    display: flex;
+    a{
+        font-family: Gilroy-Medium;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        color: rgba(17, 17, 17, 0.54);
+        
+    }
+    button{
+        background: none;
+        outline: none;
+        border: none;
+        width: 0;
+        height: 0;
+    }
+    .activ__nav{
+        color: #111111;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &::after{
+            content: '';
+            width: 36px;
+            height: 2px;
+            background: #006AFF;
+            border-radius: 6px;
+            position: absolute;
+            margin-top: 20px;
+        }
+    }
+    ul{
+        display: flex;
+    }
+    li{
+        list-style-type: none;
+        margin: 0 40px;
+    }
+}
+.logo{
+    a{
+        width: 120px;
+        img{
+            width: 120px;
+        }
+    }
+}
+.menu425{
+    display: none;
+}
+.login__bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .close__btn{
+        background: none;
+        outline: none;
+        border: none;
+        transform: scaleX(-1);
+        transition: 0.5s;
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+    button{
+        outline: none;
+        border: none;
+        background: none;
+        margin-left: 20px;
+        transform: scaleX(1);
+        transition: 0.5s;
+        img{
+            width: 20px;
+        }
+    }
+    .kirish{
+        padding: 17px 40px;
+        background: #E7F0FF;
+        border-radius: 14px;
+        text-align: center;
+        margin: 0 auto;
+        font-family: 'Gilroy-Bold';
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.015em;
+        color: #006AFF;
+        text-decoration: none;
+    }
+}
+.language{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 30px;
+    cursor: pointer;
+    img{
+        margin-left: 5px;
+    }
+    .languages{
+        display: none;
+        cursor: pointer;
+    }
+    ul{
+        position: absolute;
+        margin: 100px 0px 0px -28px; 
+        height: 80px;
+        padding:0 20px 20px 20px;
+        background: white;
+        border-radius: 18px;
+    }
+    li{
+        list-style-type: none;
+        margin: 5px 0;
+        width: 40px;
+        display: flex;
+        a{
+            margin: 0 auto;
+        }
+    }
+    li:hover{
+        background: #E7F0FF;
+        border-radius: 18px;
+    }
+}
+.language:hover{
+    .languages{
+        display: block;
+    }
+}
+.search{
+    transition: 0.5s ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    button{
+        background: none;
+        outline: none;
+        border: none;
+        transform: scaleX(-1);
+        transition: 0.5s;
+    }
+    input{
+        height: 30px;
+        margin-right: 50px;
+        width: 500px;
+        border: none;
+        outline: none;
+    }
+    img{
+        width: 20px;
+        margin-right: 10px;
+    }
+}
+.search__input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 5px;
+    button{
+        transform: scaleX(-1);
+        transition: 0.5s linear;
+    }
+}
+@media (max-width: 1024px) {
+    .container{
+        max-width: 1024px !important;
+    }
+    .bilimolish__3 {
+        max-width: 900px;
+    }
+    .nav__bar{
+        li{
+            margin: 0 20px;
+        }
+        
+    }
+    nav{ 
+        margin: 0px !important;
+        justify-content: center;
+    }
+    .search{
+        input{
+            width: 400px;
+            margin-right: 0px;
+        }
+    }
+}
+@media (max-width: 860px) {
+    .nav__bar{
+        ul{
+            display: none;
+        }
+    }
+    .gamburger{
+        display: block;
+        img{
+            width: 20px;
+        }
+        button{
+            background: none;
+            border: none;
+            outline: none;
+        }
+    }
+    .search{
+        input{
+            width: 200px;
+            margin-right: 0px;
+        }
+    }
+    nav{
+        justify-content: space-around;
+    }
+    .logo{
+        a{
+            img{
+                width: 200px;
+            }
+        }
+    }
+    .gamburger{
+        ul{
+            position: fixed;
+            top: -150%;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            background: white;
+            z-index: 99;
+            opacity: 0.97;
+            transition: 0.5s linear;
+            list-style: none;
+        }
+        a{
+            font-family: Gilroy-Medium;
+            font-size: 14px;
+            line-height: 16px;
+            display: flex;
+            align-items: center;
+            color: rgba(17, 17, 17, 0.54);
+        }
+        .menu__close{
+            display: block;
+            position: absolute;
+            top: 10px;
+            right: 60px;
+        }
+        ul.toggle{
+            top: 0;
+        }
+    }
+}
+@media (max-width: 425px) {
+    .logo{
+        a{
+            img{
+                width: 130px;
+            }
+        }
+    }
+    .menu__login{
+        display: flex;
+        margin-top: 40px;
+    }
+    .menu__login__tillar{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        a{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+    .menu__login__btn{
+        a{
+            padding: 17px 40px;
+            background: #E7F0FF;
+            border-radius: 14px;
+            text-align: center;
+            margin: 0 auto;
+            font-family: 'Gilroy-Bold';
+            font-size: 14px;
+            line-height: 16px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.015em;
+            color: #006AFF;
+            text-decoration: none;
+            margin-left: 40px;
+        }
+    }
+    nav {
+        justify-content: flex-start;
+    }
+    .language{
+        display: none;
+    }
+    .kirish{
+        display: none !important;
+    }
+    .login__bar{
+        margin-left: 120px;
+        button{
+            margin-left: 40px;
+        }
+    }
+    .menu425{
+        display: block;
+    }
+    .gamburger{
+        button{
+            display: none;
+        }
+        .menu__close {
+            top: 35px;
+            right: 35px;
+        }
+    }
+}
+@media (max-width: 375px) {
+    .login__bar {
+        margin-left: 80px;
+    }
+    .search__input {
+        margin-left: -120px;
+        z-index: 1;
+        background: white;
+    }
+    .search input {
+        width: 240px;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 320px) {
+    .login__bar {
+        margin-left: 30px;
+    }
+}

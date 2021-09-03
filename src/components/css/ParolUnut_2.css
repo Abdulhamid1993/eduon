@@ -1,0 +1,81 @@
+.ParolUnut_2_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ParolUnut_2_block .ParolUnut_2 a {
+  text-decoration: none;
+}
+
+.ParolUnut_2_block .ParolUnut_2 p {
+  color: #757575;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.ParolUnut_2_block .ParolUnut_2 .ParolUnut_1_block_input {
+  background: rgba(17, 17, 17, 0.02);
+  border-radius: 24px;
+  width: 500px;
+}
+
+.ParolUnut_2_block .ParolUnut_2 .ParolUnut_1_block_input input {
+  background: #006aff;
+  font-size: 22px;
+  padding: 16px 20px;
+  outline: none;
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 20px;
+}
+
+.ParolUnut_2_block .ParolUnut_2 .ParolUnut_1_tasdiq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 18px;
+}
+
+.ParolUnut_2_block .ParolUnut_2 .ParolUnut_1_tasdiq p {
+  cursor: pointer;
+  padding: 6px;
+  font-size: 16px;
+}
+
+.ParolUnut_2_block .ParolUnut_2 .ParolUnut_1_tasdiq button {
+  background: #E7F0FF;
+  border: none;
+  outline: none;
+  color: #006aff;
+  border-radius: 10px;
+  padding: 15px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  .ParolUnut_2_block .ParolUnut_2 {
+    width: 90%;
+  }
+  .ParolUnut_2_block .ParolUnut_2 .ParolUnut_1_block_input {
+    width: 100%;
+  }
+  .ParolUnut_2_block .ParolUnut_2 .ParolUnut_1_block_input input {
+    width: 180px;
+  }
+}

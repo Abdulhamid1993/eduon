@@ -1,0 +1,141 @@
+
+
+.ParolUnut_1_block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .ParolUnut_1{
+        a{
+            text-decoration: none;
+        }
+        h4{
+            color:#757575;
+            font-size: 25px;
+            text-align: center;
+            margin-bottom: 50px!important;
+        } 
+        p{
+            color:#757575;
+            margin-left: 10px;
+            font-size: 18px;
+        }
+        .ParolUnut_1_block_input{
+            width: 500px;
+            display: grid;
+            grid-template-columns: 1fr 4fr;
+            grid-gap:10px;
+            background: rgba(17, 17, 17, 0.02);
+            border-radius: 24px;
+            margin-top: 50px
+        ;
+            .ParolUnut_1_div1{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-left: 20px;
+                select{
+                    border: none;
+                    background: none;
+                    font-size: 18px;
+                }
+                
+            }
+            .ParolUnut_1_div2{
+
+            }
+            div{
+                input{
+                    font-size: 18px;
+                    padding: 20px 20px;
+                    outline: none;
+                    border: none;
+                    background: none;
+                }
+            }
+        }
+        .ParolUnut_1_tasdiq{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 18px;
+            p{
+                cursor:pointer;
+                padding: 6px;
+                font-size: 16px;
+            }
+            button{
+                background: #E7F0FF;
+                border: none;
+                outline: none;
+                color:#006aff;
+                border-radius: 10px;
+                padding: 15px 15px;
+                font-size: 16px; 
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media(max-width:550px){
+    .ParolUnut_1_block{
+        .ParolUnut_1{
+            width: 90%;
+            .ParolUnut_1_block_input{
+                width: 100%;
+                grid-template-columns: 1fr 2fr;
+                grid-gap: 5px;
+                .ParolUnut_1_div1{ 
+                    padding-left: 10px;
+                    select{
+                    }
+                }
+                .ParolUnut_1_div2{
+                   input{
+                       width: 180px;
+                   }
+                }
+                div{
+                    input{
+                    }
+                }
+            }
+            .ParolUnut_1_tasdiq{
+                p{
+                }
+                button{
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:375px){
+    .ParolUnut_1_block{
+        .ParolUnut_1{
+            .ParolUnut_1_block_input{
+                grid-template-columns: 1fr 1fr;
+                .ParolUnut_1_div1{
+                    select{
+                    }
+                }
+                .ParolUnut_1_div2{
+                   input{
+                       width: 120px;
+                   }
+                }
+                div{
+                    input{
+                    }
+                }
+            }
+            .ParolUnut_1_tasdiq{
+                p{
+                }
+                button{
+                }
+            }
+        }
+    }
+}

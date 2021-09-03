@@ -1,0 +1,392 @@
+@font-face{
+    font-family: 'Gilroy-Medium';
+    src: url('font/Gilroy-Medium.ttf');
+}
+
+.UserAdmin_Profile *{
+    font-family: 'Gilroy-Medium';
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.UserAdmin_Profile{
+    padding: 36px 30px;
+    display: flex;
+
+    .UserAdmin_Profile_left{
+        margin-right: 36px;
+
+        .UserAdmin_Profile_left_nameMobile{
+            display: none;
+        }
+        .UserAdmin_Profile_left_photo{
+            width: 172px;
+            height: 172px;
+            position: relative;
+            border-radius: 16px;
+
+            &::after{
+                content: "";
+                display: block;
+                width: 22px;
+                height: 22px;
+                position: absolute;
+                z-index: 1;
+                bottom: 64px;
+                right: 0px;
+                box-shadow: 6.5px 11.5px 0 0px rgb(255, 255, 255);
+                border-radius: 19pt;
+                transform: rotateZ(-16deg);
+            }
+            &::before{
+                content: "";
+                display: block;
+                width: 22px;
+                height: 22px;
+                position: absolute;
+                z-index: 1;
+                bottom: 0px;
+                right: 64px;
+                box-shadow: 10.5px 8.5px 0 0px rgb(255, 255, 255);
+                border-radius: 19pt;
+                transform: rotateZ(5deg);
+            }
+            img:nth-child(1){
+                width: 172px;
+                height: 172px;
+                border-radius: 16px;
+            }
+            img:nth-child(2){
+                position: absolute;
+                right: -10px;
+                bottom: -10px;
+                padding: 10px;
+                background: #fff;
+                border-radius: 16px;
+            }
+        } // close => UserAdmin_Profile_left_photo
+    }// close => UserAdmin_Profile_left
+
+    .UserAdmin_Profile_right{
+        width: 100%;
+
+        div:nth-child(3){
+            padding-top: 16px;
+        }
+
+        div{
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            & > input{
+                width: 49%;
+            }
+
+            input{
+                padding: 24px 30px;
+                border: none;
+                outline: none;
+                background: rgba(17, 17, 17, 0.02);
+                border-radius: 18px;
+                font-weight: 500;
+                font-size: 24px;
+                color: rgba(17, 17, 17, 0.72);
+                margin-bottom: 20px;
+              
+            }
+
+            label{
+                width: 49%;
+                display: flex;
+                flex-direction: column;
+                font-weight: 500;
+                font-size: 18px;
+                color: rgba(17, 17, 17, 0.36);
+                
+                input{
+                    margin-top: 18px;
+                }
+
+                span{
+                    padding-left: 6px;
+                }
+
+                
+            }
+        }
+
+        .UserAdmin_Profile_right_jinsi{
+            display: block;
+
+            & > div{
+                label{
+                    color: rgba(17, 17, 17, 0.72);
+                    font-size: 18px;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: row;
+                    align-items: center;
+                    padding: 24px 30px;
+                    background: rgba(17, 17, 17, 0.02);
+                    border-radius: 18px;
+                    cursor: pointer;
+
+                    input{
+                        margin: 0;
+                        width: 100%;
+                        font-weight: 500;
+                        font-size: 24px;
+                        color: rgba(17, 17, 17, 0.54);
+                        position: relative;
+                        
+                    }
+
+                    input[type="radio"] {
+                        height: 30px;
+                        width: 30px;
+                    }
+                }
+            }
+            p{
+                font-size: 18px;
+                display: block;
+                color: rgba(17, 17, 17, 0.36);
+                padding-bottom: 18px;
+                padding-left: 6px;
+            }
+        }
+
+        & > button{
+            background: #E7F0FF;
+            border-radius: 18px;
+            font-size: 24px;
+            color: #006AFF;
+            padding: 24px 72px;
+            outline: none;
+            border: none;
+            margin: 0 auto;
+            display: block;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+
+    }// close => UserAdmin_Profile_right
+} // close => UserAdmin_Profile
+
+
+
+
+
+// respnsive
+
+// 1024
+@media(max-width:1024px){
+    .UserAdmin_Profile{
+        .UserAdmin_Profile_left{
+            .UserAdmin_Profile_left_photo{
+                &::after{
+                }
+                &::before{
+                }
+                img:nth-child(1){
+                }
+                img:nth-child(2){
+                }
+            } // close => UserAdmin_Profile_left_photo
+        }// close => UserAdmin_Profile_left
+        .UserAdmin_Profile_right{
+            max-width: 625px;
+            div:nth-child(3){
+                max-width: 460px;
+            }
+            div:nth-child(4){
+                max-width: 460px;
+            }
+            div{
+                justify-content: flex-start;
+                max-width: 500px;
+
+                & > input{
+
+                    margin: 10px;
+                }
+                input{
+                }
+                label{
+
+                    margin: 10px;
+                    input{
+                    }
+                    span{
+                    }
+                }
+            }
+            .UserAdmin_Profile_right_jinsi{
+                & > div{
+                    label{
+                        input{
+                        }
+                        input[type="radio"] {
+                        }
+                    }
+                }
+                p{
+                }
+            }
+            & > button{
+            }
+        }// close => UserAdmin_Profile_right
+    } // close => UserAdmin_Profile
+} // 1024
+
+
+
+
+
+// mobile 475
+@media(max-width:475px){
+    .UserAdmin_Profile{
+        padding-left: 50px;
+        flex-direction: column;
+        .UserAdmin_Profile_left{
+            display: flex;
+            .UserAdmin_Profile_left_nameMobile{
+                display: flex;
+                flex-direction: column;
+
+                input{
+                    border: none;
+                    outline: none;
+                    font-size: 18px;
+                    color: rgba(17, 17, 17, 0.72);
+                    padding: 18px;
+                    background: rgba(17, 17, 17, 0.02);
+                    border-radius: 12px;
+                    width: 170px;
+                }
+                input:nth-child(1){
+                    margin-bottom: 6px;
+                }
+            }
+            .UserAdmin_Profile_left_photo{
+                width: 120px;
+                height: 120px;
+                margin-right: 18px;
+                &::after{
+                    bottom: 38px;
+                }
+                &::before{
+                    right: 38px;
+                }
+                img:nth-child(1){
+                    width: 120px;
+                    height: 120px;
+                }
+                img:nth-child(2){
+                    width: 48px;
+                    height: 48px;
+                }
+            } // close => UserAdmin_Profile_left_photo
+        }// close => UserAdmin_Profile_left
+        .UserAdmin_Profile_right{
+            & *{
+                font-size: 18px;
+            }
+            .UserAdmin_pc_name{
+                display: none;
+            }
+            div:nth-child(3){
+            }
+            div:nth-child(4){
+            }
+            div{
+                align-items: flex-start;
+                flex-direction: column;
+                & > input{
+                    width: 303px;
+                }
+                input{
+                    width: 303px;
+                    font-size: 18px;
+                }
+                label{
+                    input{
+                    }
+                    span{
+                    }
+                }
+            }
+            .UserAdmin_Profile_right_jinsi{
+                & > div{
+                    label{
+                        input{
+                        }
+                        input[type="radio"] {
+                        }
+                    }
+                }
+                p{
+                }
+            }
+            & > button{
+            }
+        }// close => UserAdmin_Profile_right
+    } // close => UserAdmin_Profile
+}
+
+
+
+
+
+
+
+
+
+
+
+// .UserAdmin_Profile{
+//     .UserAdmin_Profile_left{
+//         .UserAdmin_Profile_left_photo{
+//             &::after{
+//             }
+//             &::before{
+//             }
+//             img:nth-child(1){
+//             }
+//             img:nth-child(2){
+//             }
+//         } // close => UserAdmin_Profile_left_photo
+//     }// close => UserAdmin_Profile_left
+//     .UserAdmin_Profile_right{
+//         div:nth-child(3){
+//         }
+//         div{
+//             & > input{
+//             }
+//             input{
+//             }
+//             label{
+//                 input{
+//                 }
+//                 span{
+//                 }
+//             }
+//         }
+//         .UserAdmin_Profile_right_jinsi{
+//             & > div{
+//                 label{
+//                     input{
+//                     }
+//                     input[type="radio"] {
+//                     }
+//                 }
+//             }
+//             p{
+//             }
+//         }
+//         & > button{
+//         }
+//     }// close => UserAdmin_Profile_right
+// } // close => UserAdmin_Profile
